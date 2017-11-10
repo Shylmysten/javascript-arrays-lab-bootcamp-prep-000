@@ -36,3 +36,10 @@ function appendKitten(a) {
   var myArray = [...kittens, a];
   return myArray;
 }
+
+// creates a function that prepends a kitten to the kittens array and returns
+// a new array non-destructive/non mutating example
+function appendKitten(a) {
+  var myArray = [a, ...kittens];
+  return myArray;
+}
