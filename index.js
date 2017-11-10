@@ -4,7 +4,7 @@ var kittens = ["Milo", "Otis", "Garfield"]
 // creates a function that appends an element to the end of an arrays
 // destructive
 
-function destructivelyAppendKitten(a) {
+function destructivelyAppendKitten(a, b) {
   a.push(b);
   return a;
 }
