@@ -32,4 +32,3 @@ function destructivelyRemoveFirstKitten(a) {
 
 //  creates a function that appends an element to the kittens array and returns
 // a new array  non-destructive/non mutating example
-
