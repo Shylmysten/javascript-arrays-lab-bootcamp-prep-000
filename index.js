@@ -50,4 +50,3 @@ function removeLastKitten() {
   kittens = kittens.slice(-1)
   return kittens;
 }
-
