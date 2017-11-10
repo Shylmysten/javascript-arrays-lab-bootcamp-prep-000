@@ -3,6 +3,6 @@ const app = "I don't do much."
 // destructive
 
 function destructivelyAppendKitten(a) {
-    a.pop();
+    a.push();
     return;
 }
