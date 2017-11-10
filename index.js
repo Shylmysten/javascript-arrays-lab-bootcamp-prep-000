@@ -47,6 +47,6 @@ function prependKitten(a) {
 // creates a function that removes the last element in the kittens array and
 // returns a new array non-destructive/non mutating
 function removeLastKitten() {
-  myArray = kittens.slice(0, kittens.length -1);
+  var myArray = kittens.slice(0, kittens.length -1);
   return kittens;
 }
