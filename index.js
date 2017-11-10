@@ -37,7 +37,7 @@ function appendKitten(a) {
   return myArray;
 }
 
-// creates a function that prepends a kitten to the kittens array and returns
+// creates a function that prepends an element to the kittens array and returns
 // a new array non-destructive/non mutating example
 function prependKitten(a) {
   var myArray = [a, ...kittens];
