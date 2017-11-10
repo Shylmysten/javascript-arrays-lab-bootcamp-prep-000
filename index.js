@@ -33,6 +33,6 @@ function destructivelyRemoveFirstKitten(a) {
 //  creates a function that appends an element to the kittens array and returns
 // a new array  non-destructive/non mutating example
 function appendKitten(a) {
-  var kittens = [kittens...,a]
-  return kittens;
+  var myArray = [kittens..., a];
+  return myArray;
 }
