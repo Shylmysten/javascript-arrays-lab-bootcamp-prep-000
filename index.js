@@ -57,5 +57,3 @@ function removeFirstKitten() {
   var myArray = kittens.slice(1, kittens.legnth -1);
   return myArray;
 }
-
-
